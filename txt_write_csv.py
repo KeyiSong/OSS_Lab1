@@ -12,7 +12,7 @@ def new_csv(lines):
         data.append([oneline])
         with open(r'\test\sentiment-analysis\positive.csv', 'a+') as csvfile:
             csv_writer = csv.writer(csvfile, dialect='excel')
-            csv_writer.writerows(data)
+
 
 if __name__ == "__main__":
     filepath = r"\test\sentiment-analysis\positive.txt"
