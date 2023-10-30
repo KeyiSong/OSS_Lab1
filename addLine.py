@@ -9,6 +9,4 @@ with open(r'..\test\sentiment-analysis\test.csv') as csvfile:
             if index<1000:
                row.append("-1")
                writer.writerow(row)
-            elif index<2000:
-                row.append("1")
-                writer.writerow(row)
+
