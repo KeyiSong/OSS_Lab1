@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # copy fom wikipedia
-
+#好多繁体字
 zh2Hant = {
 '呆': '獃',
 "打印机": "印表機",
